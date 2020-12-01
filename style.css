@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(guess.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 1px;
+    margin: 15vh auto;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    background-color: rgba(6, 52, 255, 0.6);
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    margin: 25px auto;
+}
+
+.label {
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+#number {
+    height: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.validateBtn {
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: rgb(104, 167, 11);
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.validateBtn:focus {
+    outline: none;
+}
+
+.validateBtn:active {
+    background-color: rgb(116, 173, 29);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    border: none;
+}
+
+.resetBtn {
+    display: block;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    margin: 5px auto;
+    background-color: rgb(255, 65, 65);
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.resetBtn:focus {
+    outline: none;
+}
+
+.resetBtn:active {
+    background-color: rgb(243, 14, 14);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    border: none;
+}
+
+p {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.history {
+    margin-top: 15px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hiOrLow {
+    margin-bottom: 10px;
+}
